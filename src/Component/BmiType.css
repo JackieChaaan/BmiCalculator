@@ -1,0 +1,33 @@
+.bmiType{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    box-shadow: 2px 2px 8px 2px darkgrey;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.bmiType .bmiScore{
+    background: #7ac6e178;
+    padding: 16px 45px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: #1f1fbfbf;
+    border-radius: 5px;
+}
+.bmiType .bmiScoreTxt{
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: darkslategray;
+}
+.bmiType .Type{
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 19px;
+    color: #0a58ca;
+}
+.change{
+    color: green;
+}
